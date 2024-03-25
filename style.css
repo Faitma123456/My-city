@@ -18,13 +18,13 @@ body {
 
 .mapss {
     width: 100%;
-    margin: 0 auto;
+    margin: 0 ;
     overflow: hidden; /* Hide overflow to prevent horizontal scrolling */
 }
 
 .slider-container {
     display: flex; /* Use Flexbox for layout */
-    justify-content: space-between; /* Space slides evenly */
+    justify-content: space-around; /* Space slides evenly */
     align-items: center;
 }
 
@@ -101,24 +101,36 @@ nav ul li a:hover {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 20px;
-}
+    margin-top: 0;
+	margin-right:  380px;
 
+	
+}
+.srchtirale{
+	background-color: #d2eaf000;
+    width: 250px;
+    height:50px;   
+   
+    display: inline-block;
+    border: 1px #fffcfc solid;
+    margin-right:  150px;
+   position: static;
+}
 .srch img {
     width: 25px;
     cursor: pointer;
-    margin-left: -30px;
-	margin-bottom: 20px;
+    margin-left: -340px;
+	margin-bottom: 0px;
 
 }
 .g3{
     background-color: #aacdd6;
-    width: 300px;
-    height:500px;   
+    width: 450px;
+    height:610px;   
    
     display: inline-block;
     border: 1px #fffcfc solid;
-    margin: 10px 0px 0px 0px;
+    margin-left:  10px;
     padding: 10px 10px 10px 10px;
 }
 .srch .search {
@@ -126,9 +138,11 @@ nav ul li a:hover {
     outline: none;
     border: 2px solid #000;
     border-radius: 20px;
-    margin-left: -0px;
-	margin-bottom: 10px;
+    margin-right: 300px;
+	margin-bottom: 0px;
     width: 750px;
+	margin-left:  -110px;
+
 }
 
 .logo
